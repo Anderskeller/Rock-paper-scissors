@@ -1,3 +1,5 @@
+//
+
 let userScore = 0
 let computerScore = 0
 const userScore_span = document.getElementById("user-score");
@@ -53,6 +55,7 @@ function game(userChoice) {
             break;
     }
 }
+
     function main() {
         rock_div.addEventListener('click', function () {
             game("rock");
